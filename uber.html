@@ -74,7 +74,7 @@
 					<h2>Uber</h2>
 					<p>Designing a new way to carpool with Uber <br>
 					UC San Diego (COGS 127 - Data-driven UX/product design)</p>
-					<!--<p><img src="images/geisel.png" class="img-responsive img-rounded"></p>-->
+					<p><img src="images/uber2.png" class="img-responsive img-rounded"></p>
 					<h3>Team Members</h3>
 					<P>Xirui He, Weiyi Ma, Eryue Xu</P>
 					<h3>Context of our research</h3>
@@ -87,14 +87,12 @@
 					<h4>Collecting User Insights</h4>
 					<p>First, we conducted surveys and interviews to understand the context when users would carpool and to summarize pain points for our target users - group riders. Then, We conducted 6 interviews with survey participants who were willing to share about their experience. We wanted to understand the concerns they have while using the “add stop” feature. We wish to find patterns among participants and summarize them into painpoints that we could take into consideration in the redesign.</p>
 					<p>Here is what we summarized from 47 responses in the survey & 6 interviews: 
-					<br>1. 48.9% participants use ridesharing App more than once a week. However, there is still 51% participants who do not use the App quite as often.<br>
-					<br>2. 83% participants reported they have the experience of picking up a friend or other people in real life. This question reflects the necessity of our design objective.<br>
-					<br>3. 76.7% participants chose "Entertainment" to be the main reason for them to pick up someone they know. This fits in our assumption that people like to do joint activities together. It is also not surprising that school is the second reason here because most of the participants are students. This result will help us understand user needs and pain points in context and different scenarios.<br>
-					<br>4. 66% participants would like to try our proposed new feature, to pair riders with a friend, in addition to the current automatic pairing in Uber pool.</p>
+					<img src="images/data.png" class="img-responsive img-rounded"></p>
 
 					<h4>Pain points</h4>
 					<p>Users have no control of what people will they be paired with when taking an Uber pool.<br>
 						Users have no control of what time they will be picked up when using “add stop” function.<br>
+					<img src="images/daw.png" class="img-responsive img-rounded">
 					</p>
 					
 
@@ -115,11 +113,9 @@
 					
 					<h4>User Flows</h4>
 					<p><strong>Flow #1</strong>: the first UX flow starts when the user opens Uber’s home page. Same as the existing user flow in Uber, users can first choose the destination and add a stop in between. Inspired by Waze Carpool we added an option to create a group for people who frequently wish to carpool together. When choosing to find a ride for the group, it will send a confirmation to all members in the group, who are allowed to edit their stops, and the trip begins after all members are ready. Our problem statement states that we want to help Uber users commute safely and efficiently with people going the same way, especially for our personas Helen and Sophia, the group function makes it safer and more affordable to share the ride with their teammates or co-workers.<br>
-				<img src="images/flow1.png" class="img-responsive img-rounded">
+				<br><img src="images/flow1.png" class="img-responsive img-rounded">
 					<br><strong>Flow #2</strong>: the second UX flow also starts when users open Uber’s home page. The home page shows a map on the top half of the screen like the existing screen but has three tabs below to set the destination & pick up point, choose a car type, and option to add a rider. If the user choose to add a rider from their contacts, Uber will send a notification to the new rider to confirm the trip. After confirmation from all riders, they can begin the trip. This flow is a better design for our persona Daniel who only need to use the  multi-rider feature occasionally, so Danial can use the "Add a rider" tab to add a friend each time he needs to.</p>
 					<img src="images/flow2.png" class="img-responsive img-rounded">
-					<h4>UI Sketches</h4>
-					<p>From the competitive audit, we found that Lyft is the most well-structured ride-sharing app. We based our UX flow and sketches on Uber’s existing UI and Lyft’s strengths, which bring us a rather complete operation flow. We also think Waze’s Create group function brings convenience to passengers who share ride with their friends/co-workers frequently, so we enable our users to create a group with their friends. We first give a general sketch according to our flow, then sketched the details of the added functions. The flow is the base of our UI sketches, and our sketches are a supplement to the UX flows.</p>
 
 					<h4>Paper Prototype</h4>
 					<p>The first set of paper prototype corresponds to the first UX flow. We applied linear selection in this plan, which allows users to <strong>enter information step by step</strong>. In most of the screens, we are using Uber’s current design. For example, the first two screens are almost the identical to the welcome page and the page when the user selects the destination in Uber. The biggest change is that we assigned a name to the second stop, indicating that a new person may be picked up there. After the user invites someone to the ride, the invited person will get a notification with the choice of join or decline. User 2 can then edit the pickup spot and start the ride when ready.</p>
@@ -132,18 +128,16 @@
 					<img src="images/paper2.png" class="img-responsive img-rounded"></p>
 
 					<h4>User Testing</h4>
-					<p>Targeted User : people who want to use Uber pool but feel unsafe about it.<br>
-				After conducting user research, we built our persona and narrowed down the scope of our targeted group to be a young-aged student or newbie employees. They mostly cannot afford a car and consider their budget as a priority. Meanwhile, they want to be safe and are not willing to share a ride with strangers. Thus, we mainly invite students to be our user testing participants. Also, we invited more female users than male users because safety is a larger concern for female groups.<br>
-				As a team of three, we had one person leading the testing process (This could introduce our project to users, or as leading questions to guide users to reflect. etc), one person changes the screen paper after each action of a user, and one person videotaping the whole process. </p>
+					<p><img src="images/usertest.png" class="img-responsive img-rounded"></p>
 
 					<h4>Point of View</h4>
-					<p>After conducting three groups of user testing, we generate three following principles that we should follow in our design:
-					<li>Minimalism</li>
-					<li>Convention</li>
-					<li>User control</li></p>
+					<p>After conducting three groups of user testing, we generate three following principles that we should follow in our design:<br>
+					1. <strong>Minimalism</strong>: unnessary icons and designs really distract the user from what to do. They mislead the users to make a wrong attempt.<br>
+					2. <strong>Convention</strong>: Convention has a great power over users. We need to fit our redesign smoothly into the current app, and make it easy to understand. It takes time for users to learn about a new interface and a new function. There is also a greater chance for them to make mistakes.<br>
+					3. <strong>User control</strong>:Users are sensitive about whether they have enough control on the page. They want to lead the system rather than being guided by the system. For example, they want to be able to quit the current page if they want. From user testing results, we think it is important to give user 2 more control over setting the pick-up point and quitting the ride if he/she wishes to.<br></p>
 
 					<h4>Next Steps</h4>
-					<p>According to the preferences of our users, we decide to choose prototype B as a base of our later design. This is because prototype B introduces our redesigned new function more clearly and thoroughly. However, there are still changes we want to make to prototype B based on our point of view.</p>
+					<p>According to the preferences of our users, we decide to choose <strong>prototype B </strong>as a base of our later design. This is because prototype B introduces our redesigned new function more clearly and thoroughly. However, there are still changes we want to make to prototype B based on our point of view.</p>
 					<li>We will minimize the noise in our page. </li>
 					<li>We will follow the convention of Uber’s original design.</li>
 					<li>We will add a notification pop-up enable user 2 to make a decision. </li>
@@ -151,9 +145,12 @@
 					<br><h3>High Fidelity Prototypes</h3>
 					<p>We decided to make our prototype based on the second UX flow while making a few tweaks.<br>
 					Our high fidelity prototype starts when users open Uber’s home page. The home page shows a map on the top half of the screen like the existing uber home page but has three tabs below to add riders, choose a car type, and set destination. If the user chooses to add a rider from their contacts, Uber will send a notification to the new rider to confirm the trip and enable them to edit their pick up point. After confirmation from all riders, they can begin the trip. When the driver is picking up user 1, the other can track the ride details on the application, which makes the pick up experience more smoothly. We chose to make high fidelity prototypes for this design because from user testing, users reported that this version of the home screen looks more organized and easy to navigate with our new feature. We keep the screens where users set the destination, and choose a ride type the same as Uber’s current design.<br>
+					<img src="images/user1.png" class="img-responsive img-rounded">
+					<img src="images/user2.png" class="img-responsive img-rounded">
 					<br>
 					Alternative plan: we choose to follow Uber’s original flow as an alternative plan. We feel that to make such a huge change of the home page, as what we did in the first prototype, is too bold. Mainly, we redesigned user 1’s home page and separate it into different steps, as what Uber does for now.
-					Unlike the first prototype, we make the alternative screens pretty much as close to Uber’s original home page as possible. We want to make minimum visual changes while approaching the best functional innovation: by simply adding a “Pool friends” option in the riding type list. Thus, the user will still choose the destination first, then select the ride type while adding a specific rider to his/her journey. This approach might be more efficient because it clearly divides the task into small steps, and our feature appears at a more appropriate place when choosing the ride type. Users will gain control of the company passenger most easily and naturally. </p>
+					Unlike the first prototype, we make the alternative screens pretty much as close to Uber’s original home page as possible. We want to make minimum visual changes while approaching the best functional innovation: by simply adding a “Pool friends” option in the riding type list. Thus, the user will still choose the destination first, then select the ride type while adding a specific rider to his/her journey. This approach might be more efficient because it clearly divides the task into small steps, and our feature appears at a more appropriate place when choosing the ride type. Users will gain control of the company passenger most easily and naturally. 
+					<img src="images/alt.png" class="img-responsive img-rounded"></p>
 
 
 					<h3>User Testing on High Fidelity Prototypes</h3>
@@ -165,13 +162,17 @@
 					<li>Delete the 1 seat option at Pool friends details page to minimize the confusion about how many persons are added to the trip.</li><br>
 
 					<h3>Before vs. After</h3>
-					<p><img src="images/ba1.png" class="img-responsive img-rounded">
+					<p>Based on user testing feedback and advice from our TAs, we made the following changes to finalize the prototype:
+						<img src="images/ba1.png" class="img-responsive img-rounded">
 						<img src="images/ba2.png" class="img-responsive img-rounded">
 						<img src="images/ba3.png" class="img-responsive img-rounded">
 						<img src="images/ba4.png" class="img-responsive img-rounded"></p>
-
+					<h4>Our complete set of final prototypes</h4>
+					<img src="images/highfi.png" class="img-responsive img-rounded">
 					<h3>Reflection</h3>
 					<p>In this redesign project, we focused mainly on the human connection and providing a more convenient way for a group of friends to carpool more effectively with our proposed feature "Pool friends". In our research process, I think the most effective part is the second user testing session for the high fidelity prototypes. With our experience for the first user testing session, we learned a lot more user insights with the high fidelity prototypes, which helped us improve and finalize the prototypes.</p>
+					<h4>Style Guide</h4>
+					<p>For this project, we followed Uber's style guide at <a href="https://brand.uber.com/guide#color-primary-brand-colors">brand.uber.com </a>to complete our design.</p>
 					<h4>My Role</h4>
 					<p>Most of our work is done collaboratively between the three team members. During the final prototyping, I focused on designing the Pool friends details page and the trip details page.</p>
 					<p></p>
