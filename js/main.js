@@ -262,6 +262,6 @@
 		counterWayPoint();
 		fullHeight();
 	});
-
+	
 
 }());
