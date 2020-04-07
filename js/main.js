@@ -320,9 +320,6 @@ class TypeWriter {
 	}
 }
 
-/ Init On DOM Load
-//document.addEventListener('DOMContentLoaded', init);
-
 document.addEventListener("DOMContentLoaded", function() {
 	fields.name = document.getElementById('Name');
 	fields.email = document.getElementById('email');
