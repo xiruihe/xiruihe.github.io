@@ -379,6 +379,8 @@ class TypeWriter {
 	}
 }
 
+document.addEventListener('DOMContentLoaded', init);
+
 // Init App
 function init() {
 	const txtElement = document.querySelector('.txt-type');
